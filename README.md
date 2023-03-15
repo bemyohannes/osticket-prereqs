@@ -59,13 +59,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Ziv2YC2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-	From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP  by right-clicking on the file from “Downloads,” clicking “Extract All” and selecting C:\PHP as the destination
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="[https://i.imgur.com/DJmEXEB.png](https://i.imgur.com/AjN0tyj.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+<img src="[[https://i.imgur.com/DJmEXEB.png](https://i.imgur.com/AjN0tyj.png)](https://i.imgur.com/weTuzlG.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
