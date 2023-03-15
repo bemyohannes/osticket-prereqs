@@ -102,3 +102,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/6eAwqly.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+-	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
+
+</p>
+7.	Installing osTicket:
+
+-	From the Installation Files, download osTicket (osTicket v1.15.8)
+-	Open the zipped osTicket file from “Downloads” and extract the “upload” folder into the c:\inetpub\wwwroot pathway >
+-	Within c:\inetpub\wwwroot, rename “upload” to “osTicket”
+
+<p>
+<img src="https://i.imgur.com/0dAZAU1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
