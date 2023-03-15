@@ -31,7 +31,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/MyrnTfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1.	Install and enable IIS (Internet Information Services) with CGI:
+
+-	Right click Windows icon in taskbar >
+-	Click “run” >
+-	type “control panel” and click “OK” >
+-	Click “Programs” >
+-	Under “Programs and Features” click “Turn Windows features on or off” >
+-	Select “Internet Information Services” and also expand it >
+-	Expand “World Wide Web Services” >
+-	Expand “Application Development Features” >
+-	Select “CGI” and click “OK”
+
+2.	Download and install PHP Manager for IIS:
+
+-	From the Installation Files, download and install the PHP Manager (PHPManagerForIIS_V1.5.0.msi) and Rewrite Module (rewrite_amd64_en-US.msi) files
+
+3.	Create C:\PHP directory:
+
+-	Open File Explorer from the taskbar and go to the (C:) drive >
+-	Create a new folder called “PHP”
+
 </p>
 <br />
 
