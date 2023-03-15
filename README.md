@@ -61,7 +61,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 -	From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP  by right-clicking on the file from “Downloads,” clicking “Extract All” and selecting C:\PHP as the destination
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/VSuAahZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -84,13 +83,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -	In the taskbar search, type “iis” > click “Run as Administrator” for the IIS App > double-click “PHP Manager” > under PHP Setup, click “Register new PHP version” > click the ellipses (…) > (C:) drive > PHP > php-cgi > click Open > click OK
 
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/mzUohrR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<br />
 
 <p>
 -	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
@@ -104,6 +101,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 -	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
+
+</p>
+7.	Installing osTicket:
+
+-	From the Installation Files, download osTicket (osTicket v1.15.8)
+-	Open the zipped osTicket file from “Downloads” and extract the “upload” folder into the c:\inetpub\wwwroot pathway >
+-	Within c:\inetpub\wwwroot, rename “upload” to “osTicket”
+
+<p>
+<img src="https://i.imgur.com/0dAZAU1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 </p>
 7.	Installing osTicket:
