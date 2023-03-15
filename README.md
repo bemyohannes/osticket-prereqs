@@ -77,3 +77,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 5.	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 </p>
 <br />
+
+<p>
+6.	Registering PHP:
+
+-	In the taskbar search, type “iis” > click “Run as Administrator” for the IIS App > double-click “PHP Manager” > under PHP Setup, click “Register new PHP version” > click the ellipses (…) > (C:) drive > PHP > php-cgi > click Open > click OK
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mzUohrR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
