@@ -53,7 +53,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -	Create a new folder called “PHP”
 
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/Ziv2YC2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -75,7 +74,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 5.	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 </p>
-<br />
 
 <p>
 6.	Registering PHP:
@@ -93,7 +91,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
 
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/6eAwqly.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -110,7 +107,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -	From the Installation Files, download osTicket (osTicket v1.15.8)
 -	Open the zipped osTicket file from “Downloads” and extract the “upload” folder into the c:\inetpub\wwwroot pathway >
 -	Within c:\inetpub\wwwroot, rename “upload” to “osTicket”
-
 </p>
   
 <p>
