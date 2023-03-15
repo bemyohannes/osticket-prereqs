@@ -89,3 +89,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/mzUohrR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<br />
+
+<p>
+-	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6eAwqly.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
