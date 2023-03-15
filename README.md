@@ -96,11 +96,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
--	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
-
-</p>
-
-<p>
 7.	Installing osTicket:
 
 -	From the Installation Files, download osTicket (osTicket v1.15.8)
