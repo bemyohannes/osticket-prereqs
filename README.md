@@ -142,3 +142,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/UrEl4JX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+-	Referesh the osTicket site in your web browser and observe the changes. You should see something similar to the following:
+</p>
+
+<p>
+<img src="https://i.imgur.com/UrEl4JX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
