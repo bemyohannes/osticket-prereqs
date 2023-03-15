@@ -144,9 +144,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
--	Referesh the osTicket site in your web browser and observe the changes. You should see something similar to the following:
+8.	Renaming a PHP file and Assigning Permissions:
+
+-	From within the C:\inetpub\wwwroot\osTicket\include pathway rename the “ost-sampleconfig” PHP file to “ost-config” >
+-	Right-click the “ost-config” file and click Properties > Security > Advanced > Disable Inheritance > click “Remove all inherited permissions…” > click Add > click “Select a principal” > type “everyone” as the object name > “Check Names”> OK > Full Control > OK > Apply > OK > OK
+
+9.	osTicket Installation, Continued:
+
+-	Within the osTicket site in the browser, at the bottom of the page, click “Continue”>
+-	 Enter a helpdesk name and default email >
+-	Fill out the information under “Admin User” >
+
+Before we fill out the information under “Database Settings” we will first need to download and install HeidiSQL from the Installation Files, which will allow us to connect to the MySQL database that we installed in part (5)
+
+-	After downloading and installing, open HeidiSQL and click “New” icon on the bottom left-hand corner and provide the username and password that was used when setting-up MySQL > click Open > right-click “Unnamed” > Create new > Database > name it “osTicket” > OK
+
 </p>
 
 <p>
-<img src="https://i.imgur.com/UrEl4JX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dFCRCkn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Go back to osTicket site and enter the database name of the database that was just created and the MySQL username and password under “Database Settings” > click “Install Now” 
+</p>
+
+<p>
+<img src="https://i.imgur.com/BRioBvQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Congratulations! Hopefully it installed with no errors! 
+</p>
+
+<p>
+10.  The final step is to do some cleanup:
+
+-	Delete the “setup” folder from the C:\inetpub\wwwroot\osTicket pathway. BE CAREFUL not to delete the entire pathway; ONLY delete the “setup” folder from within the “osTicket” folder in the pathway
+-	Finally, from the C:\inetpub\wwwroot\osTicket\include\ost-config.php pathway, right-click the ost-config.php file > Properties > Security > Advanced > select Everyone > Edit > check only “Read & execute” and “Read” > OK > Apply > OK > OK 
+ 
 </p>
