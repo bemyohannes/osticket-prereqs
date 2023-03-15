@@ -118,15 +118,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 -	Within the osTicket folder in IIS, click “PHP Manager” > under “PHP Extensions” click “Enable or disable an extension” > enable the following extensions by clicking them and then clicking “enable” on the right under “Actions”
 
   <p>
-  php_imap.dll
+    php_imap.dll
   </p>
 
   <p>
-  php_intl.dll
+    php_intl.dll
   </p>
 
   <p>
-  php_opcache.dll
+    php_opcache.dll
   </p>
 
 </p>
@@ -136,5 +136,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
+-	Referesh the osTicket site in your web browser and observe the changes. You should see something similar to the following:
+</p>
 
+<p>
+<img src="https://i.imgur.com/UrEl4JX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
