@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+Hello there! Welcome to my tutorial on osTicket Prerequisites and Installation. This tutorial outlines the prerequisites and installation of the open-source Help Desk ticketing system osTicket.<br />
 
 
 
@@ -19,14 +19,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
+- Azure Tenant and Subscription
 - osTicket Installation Files
 
 <h2>Installation Steps</h2>
 
 <p>
+In order to begin the process of installing osTicket, we first need to create a Resource Group and a Storage Account in Microsoft Azure (Microsoft's cloud computing platform). You can access Azure by visiting portal.azure.com  
+</p>
+
+<p>
+<img src="https://i.imgur.com/awfPpoA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/KkaVYdx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<b />
+
+The next step will be to create a Virtual Machine in Azure. 
+
+<p>
 <img src="https://i.imgur.com/MyrnTfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 1.	Install and enable IIS (Internet Information Services) with CGI:
 
