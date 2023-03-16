@@ -112,12 +112,10 @@ From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip
 <img src="https://i.imgur.com/weTuzlG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>
+
 4.	From the Installation Files, download and install VC_redist.x86.exe
 
 5.	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-</p>
-
 
 <p>
 6.	Registering PHP:
