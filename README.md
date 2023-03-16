@@ -36,13 +36,22 @@ In order to begin the process of installing osTicket, we first need to create a 
 <img src="https://i.imgur.com/KkaVYdx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-</b>
-
-The next step will be to create a Virtual Machine in Azure. 
+<p>
+The next step will be to create a Virtual Machine in Azure by typing “virtual machine” in the search bar in the Azure portal and clicking the “Create” tab on the left
+<p/>
 
 <p>
-<img src="https://i.imgur.com/MyrnTfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nrf4alt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+When creating your virtual machine, pick a Region that you’ll remember and stick with that region for consistency throughout. Also, select Windows 10 as your machine for the Image and select either (2) or (4) virtual cpus (vcpus); either one is fine
+<p/>
+
+<p>
+<img src="https://i.imgur.com/bbdLQoB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 
 <p>
 1.	Install and enable IIS (Internet Information Services) with CGI:
@@ -56,6 +65,10 @@ The next step will be to create a Virtual Machine in Azure.
 -	Expand “World Wide Web Services” >
 -	Expand “Application Development Features” >
 -	Select “CGI” and click “OK”
+  
+<p>
+<img src="https://i.imgur.com/MyrnTfm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 2.	Download and install PHP Manager for IIS:
 
