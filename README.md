@@ -161,16 +161,17 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 
   <p>
     php_imap.dll
-  </p>
+  
+</p>
 
   <p>
     php_intl.dll
-  </p>
+  
+</p>
 
   <p>
     php_opcache.dll
-  </p>
-
+  
 </p>
   
 <p>
