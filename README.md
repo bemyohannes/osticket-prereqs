@@ -87,7 +87,7 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 
 2.	Download and install PHP Manager for IIS:
 
--	From the Installation Files, download and install the PHP Manager (PHPManagerForIIS_V1.5.0.msi) and Rewrite Module (rewrite_amd64_en-US.msi) files
+From the Installation Files, download and install the PHP Manager (PHPManagerForIIS_V1.5.0.msi) and Rewrite Module (rewrite_amd64_en-US.msi) files
 
 3.	Create C:\PHP directory:
 
@@ -101,7 +101,7 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 </p>
 
 <p>
--	From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP  by right-clicking on the file from “Downloads,” clicking “Extract All” and selecting C:\PHP as the destination
+From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP  by right-clicking on the file from “Downloads,” clicking “Extract All” and selecting C:\PHP as the destination
 </p>
 
 <p>
@@ -114,14 +114,13 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 
 <p>
 4.	From the Installation Files, download and install VC_redist.x86.exe
-
 5.	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 </p>
 
 <p>
 6.	Registering PHP:
 
--	In the taskbar search, type “iis” > click “Run as Administrator” for the IIS App > double-click “PHP Manager” > under PHP Setup, click “Register new PHP version” > click the ellipses (…) > (C:) drive > PHP > php-cgi > click Open > click OK
+In the taskbar search, type “iis” > click “Run as Administrator” for the IIS App > double-click “PHP Manager” > under PHP Setup, click “Register new PHP version” > click the ellipses (…) > (C:) drive > PHP > php-cgi > click Open > click OK
 </p>
 
 <p>
@@ -130,7 +129,7 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 
 
 <p>
--	Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
+Web server should now be restarted: click the name of the server (VM-osTicket) on the left under Connections and then click Restart on the right under Actions
 </p>
 
 <p>
@@ -150,21 +149,23 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 </p>
 
 <p>
--	Web server should now be restarted from IIS. Follow the step above under part (6)
+Web server should now be restarted from IIS. Follow the step above under part (6)
 </p>
 
 <p>
 
--	From IIS we will enable several extensions: in IIS under connections expand Sites > expand Default Web Site > click osTicket > on the right under Manage Folder, click “Browse *:80 (http)”, which will open the osTicket interface in a new tab in your web browser
+From IIS we will enable several extensions: in IIS under connections expand Sites > expand Default Web Site > click osTicket > on the right under Manage Folder, click “Browse *:80 (http)”, which will open the osTicket interface in a new tab in your web browser
 
--	Within the osTicket folder in IIS, click “PHP Manager” > under “PHP Extensions” click “Enable or disable an extension” > enable the following extensions by clicking them and then clicking “enable” on the right under “Actions”
+Within the osTicket folder in IIS, click “PHP Manager” > under “PHP Extensions” click “Enable or disable an extension” > enable the following extensions by clicking them and then clicking “enable” on the right under “Actions”
 
 php_imap.dll
     
 php_intl.dll
 
 php_opcache.dll
-  
+
+<br/>
+ 
 <p>
 <img src="https://i.imgur.com/hIU9U5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
