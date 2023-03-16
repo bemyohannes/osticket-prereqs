@@ -36,7 +36,7 @@ In order to begin the process of installing osTicket, we first need to create a 
 <img src="https://i.imgur.com/KkaVYdx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<b />
+</b>
 
 The next step will be to create a Virtual Machine in Azure. 
 
