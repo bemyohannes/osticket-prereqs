@@ -114,8 +114,10 @@ From the Installation Files, download PHP file (php-7.3.8-nts-Win32-VC15-x86.zip
 
 <p>
 4.	From the Installation Files, download and install VC_redist.x86.exe
+
 5.	From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 </p>
+
 
 <p>
 6.	Registering PHP:
@@ -158,11 +160,9 @@ From IIS we will enable several extensions: in IIS under connections expand Site
 
 Within the osTicket folder in IIS, click “PHP Manager” > under “PHP Extensions” click “Enable or disable an extension” > enable the following extensions by clicking them and then clicking “enable” on the right under “Actions”
 
-php_imap.dll
-    
-php_intl.dll
-
-php_opcache.dll
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
 
 <br/>
  
