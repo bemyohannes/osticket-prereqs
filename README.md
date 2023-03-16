@@ -159,27 +159,18 @@ You will now be accessing the virtual machine by using Remote Desktop Connection
 
 -	Within the osTicket folder in IIS, click “PHP Manager” > under “PHP Extensions” click “Enable or disable an extension” > enable the following extensions by clicking them and then clicking “enable” on the right under “Actions”
 
-  <p>
-    php_imap.dll
-  
-</p>
+php_imap.dll
+    
+php_intl.dll
 
-  <p>
-    php_intl.dll
-  
-</p>
-
-  <p>
-    php_opcache.dll
-  
-</p>
+php_opcache.dll
   
 <p>
 <img src="https://i.imgur.com/hIU9U5i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
--	Referesh the osTicket site in your web browser and observe the changes. You should see something similar to the following:
+Referesh the osTicket site in your web browser and observe the changes. You should see something similar to the following:
 </p>
 
 <p>
