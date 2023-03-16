@@ -52,6 +52,21 @@ When creating your virtual machine, pick a Region that you’ll remember and sti
 <img src="https://i.imgur.com/bbdLQoB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+You will now be accessing the virtual machine by using Remote Desktop Connection (RDC) to connect to it. To do this, you will need to copy the Public IP address of the virtual machine and paste it in RDC. Click connect. 
+</p>
+
+<p>
+<img src="https://i.imgur.com/LFeYtJ0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/71nYMeT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+ Great! Now that you are connected, you can follow the steps below to begin the process of installing osTicket
+</p>
 
 <p>
 1.	Install and enable IIS (Internet Information Services) with CGI:
